@@ -9,7 +9,7 @@ namespace Data
 {
     public class TravelContext : DbContext
     {
-        private string connectionString = "Data Source=(localdb)\\ProjectsV13;Initial Catalog=WeTravel;Integrated Security=True;";
+        private string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=WeTravel;Integrated Security=True";
 
         public DbSet<Model.Customer> Customers { get; set; }
 
