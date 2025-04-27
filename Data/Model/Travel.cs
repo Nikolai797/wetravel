@@ -11,11 +11,17 @@ namespace Data.Model
     {
         [Key]
         public int Id { get; set; }
-
+        /// <summary>
+        ///  Идентификация
+        /// </summary>
         public string Destination { get; set; }
-
+        /// <summary>
+        /// Дестинация
+        /// </summary>
         public int CustomerId { get; set; }
-
+        /// <summary>
+        /// Идентификатор на клиента
+        /// </summary>
         public virtual Customer Customer { get; set; }
     }
 }

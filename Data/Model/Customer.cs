@@ -15,11 +15,17 @@ namespace Data.Model
         /// Име на клиента
         /// </summary>
         public string Name { get; set; }
-
+        /// <summary>
+        /// Адреса на клиента
+        /// </summary>
         public string Address { get; set; }
-
+        /// <summary>
+        /// Телефонния номер на клиента
+        /// </summary>
         public string Phone { get; set; }
-
+        /// <summary>
+        /// Имейла на клиента
+        /// </summary>
         public string Email { get; set; }
     }
 }
