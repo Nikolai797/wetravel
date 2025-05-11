@@ -1,5 +1,5 @@
 # WeTravel
-Mega Amazing Super Duper Project created by:
+Project created by:
 - Dariya Slavova
 - Nikolai Ivanov
 - Georgi Ivanov
